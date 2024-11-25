@@ -1,0 +1,15 @@
+} else if (menu == 2){
+            System.out.println("   ===   Penonton   ===   ");
+            if (penonton == null){
+                System.out.println("\nBelum ada penonton");
+            }
+            System.out.println("\n   ===   ========   ===   ");
+        }
+
+        System.out.println("     ===   MENU   ===     ");
+        System.out.println("1. Input data penonton");
+        System.out.println("2. Tampilkan data penonton");
+        System.out.println("3. Exit");
+        System.out.println("     ===   ====   ===     ");
+        System.out.print("\n\nPilih Menu (angka) : ");
+        menu = scan.nextInt();
